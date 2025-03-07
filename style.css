@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    height: 100vh;
+    text-align: justify;
+    gap: 30px;
+}
+.col-1 {
+    width: 600px;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+}
+
+.col-2 {
+    margin-left: 600px;
+    flex-grow: 1;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.projects img {
+    float: left;
+    height: auto;
+    width: 150px;
+}
+
+.social img{
+    padding: 15px;
+    height: auto;
+    width: 25px;
+}
