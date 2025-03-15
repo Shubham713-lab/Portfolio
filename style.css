@@ -1,31 +1,93 @@
+body {
+    background-color: #111c38;
+    color: aliceblue;
+}
+
 .row {
     display: flex;
     height: 100vh;
     text-align: justify;
-    gap: 30px;
 }
 .col-1 {
     width: 600px;
     height: 100vh;
     position: fixed;
     overflow: hidden;
+    padding-left: 150px;
+    padding-top: 100px;
 }
 
 .col-2 {
-    margin-left: 600px;
+    margin-left: 700px;
     flex-grow: 1;
     height: 100vh;
-    overflow-y: auto;
+    padding-right: 80px;
+    padding-top: 70px;
 }
 
+/* col - 2 */
+.about {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+.projects {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
 .projects img {
     float: left;
     height: auto;
     width: 150px;
+    padding-right: 15px;
 }
 
+.certi {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+.certi p{
+    padding-bottom: 2px;
+}
+.certi img {
+    float: left;
+    height: 120px;
+    width: 190px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+/* col - 1 */
 .social img{
-    padding: 15px;
+    padding: 10px;
     height: auto;
     width: 25px;
+    padding-top: 270px;
+}
+
+.name {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(229, 238, 247);
+}
+.name a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.info span {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.info p {
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: justify;
+    color: rgb(185, 211, 233);
+}
+
+.section {
+    padding-top: 25px;
 }
